@@ -15,6 +15,7 @@ body {
     font-weight: var(--font-weight-regular);
     background-color: var(--bg-primary);
     color: var(--text-primary-color);
+    line-height: 1.5;
 }
 
 a {
@@ -32,7 +33,7 @@ button {
     text-align: center;
 }
 
-img {
+img, svg {
     display: block;
     max-width: 100%;
     height: auto;
@@ -46,6 +47,10 @@ input, textarea {
     padding: 0.8rem;
     border-radius: var(--radius-md);
     color: var(--text-primary-color);
+}
+
+ul{
+    list-style: none;
 }
 
 h1, h2, h3 {
